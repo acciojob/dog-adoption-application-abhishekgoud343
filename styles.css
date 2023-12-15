@@ -1,2 +1,32 @@
-
 /* Your CSS Code here. */
+#submit {
+	background-color : green;
+	border : none;
+	color : white;
+	padding : 12px 36px;
+	margin : 0px 50px;
+}
+
+#multiSelect {
+	margin : 8px 2px;
+	background : pink;
+}
+
+input[type=text], select[multiple] {
+	padding : 4px 8px;
+	margin : 0px 5px;
+	display : inline-block;
+}
+
+option:checked {
+	background : red;
+	color : white;
+}
+
+option {
+	border : 1px;
+}
+
+div {
+	padding : 20px;
+}
